@@ -10,12 +10,19 @@ public class Assignment1Program1 {
     System.out.println("LL             SS");
     System.out.println("LLLLLLLLL  SSSSSSS");
   
-  // 
+  // Please enter a number in Fahrenheit:
   
     String string;
+    String tempF;
+    
     Scanner string = new Scanner(System.in);
 
-    System.out.print("Please enter a 5-character string:");
+    System.out.println("Please enter a 5-character string:");
     message = string.nextLine();
+
+    Scanner tempF = new Scanner(System.in);
+    
+    System.out.println("Please enter a number in Fahrenheit:");
+    message = tempF.nextLine();
   
   }}
