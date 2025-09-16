@@ -16,15 +16,15 @@ public class Assignment1Program1 {
     System.out.println("LLLLLLLLLLLL      SSSSSSSSSSS");
   // Please enter a number in Fahrenheit:
   
-    String Message;
+    String message;
     String tempF;
     
     Scanner string = new Scanner(System.in);
 
-    System.out.print("Please enter a 5-character string:");
-    Message = string.nextLine();
+    System.out.println("Please enter a 5-character string:");
+    message = string.nextLine();
     
-    System.out.print("Please enter a number in Fahrenheit:");
+    System.out.println("Please enter a number in Fahrenheit:");
     tempF = string.nextLine();
   
   }}
