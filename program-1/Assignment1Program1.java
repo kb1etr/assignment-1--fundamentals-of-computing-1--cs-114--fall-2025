@@ -18,7 +18,6 @@ public class Assignment1Program1 {
     double tempF;
     double tempC;
     Random generator = new Random();
-    int num1;
     Scanner keyInput = new Scanner(System.in);
     System.out.println("Please enter a 5-character string:");
     inputChar = keyInput.nextLine();
@@ -29,11 +28,9 @@ public class Assignment1Program1 {
     System.out.println( "Random number generated. Continuing...");
     System.out.println("");
     System.out.print( "Your new string is ");
-    tempC = ((tempF - 32) / 1.8);
-    num1 = generator.nextInt();
-    System.out.print(tempC);
+    System.out.print(((tempF - 32) / 1.8));
     System.out.print(inputChar.charAt(3));
     System.out.print(inputChar.charAt(2));
     System.out.print(inputChar.charAt(1));
-    System.out.println(num1);
+    System.out.println(generator.nextInt());
   }}
