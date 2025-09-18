@@ -15,7 +15,7 @@ public class Assignment1Program1 {
     System.out.println("LL                           SS");
     System.out.println("LL                            SS");
     System.out.println("LL                           SS");
-    System.out.println("LLLLLLLLLLLL     SSSSSSSSSSSSS");
+    System.out.println("LLLLLLLLLLL      SSSSSSSSSSSSS");
     System.out.println("LLLLLLLLLLLL      SSSSSSSSSSS");
   
     String message;
