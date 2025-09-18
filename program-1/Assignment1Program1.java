@@ -19,12 +19,12 @@ public class Assignment1Program1 {
     double tempC;
     Random generator = new Random();
     int num1;
-    Scanner string = new Scanner(System.in);
+    Scanner keyInput = new Scanner(System.in);
     System.out.println("Please enter a 5-character string:");
-    inputChar = string.nextLine();
+    inputChar = keyInput.nextLine();
     System.out.println("");
     System.out.println("Please enter a number in Fahrenheit:");
-    tempF = string.nextDouble();
+    tempF = keyInput.nextDouble();
     System.out.println("");
     System.out.println( "Random number generated. Continuing...");
     System.out.println("");
