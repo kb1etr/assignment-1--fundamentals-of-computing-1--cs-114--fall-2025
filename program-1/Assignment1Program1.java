@@ -1,4 +1,6 @@
 import java.util.Scanner;
+import java.util.Random;
+
 
 public class Assignment1Program1 {
   public static void main(String[] args) {
@@ -18,6 +20,9 @@ public class Assignment1Program1 {
   
     String message;
     String tempF;
+
+    Random generator = new Random();
+    int num1;
     
     Scanner string = new Scanner(System.in);
 
@@ -36,7 +41,9 @@ public class Assignment1Program1 {
 
     System.out.print(message.charAt(3));
     System.out.print(message.charAt(2));
-    System.out.println(message.charAt(1));
+    System.out.print(message.charAt(1));
     
-
+    num1 = generator.nextInt();
+    System.out.println( + num1);
+    
   }}
