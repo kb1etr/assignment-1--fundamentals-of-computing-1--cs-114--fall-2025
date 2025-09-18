@@ -16,7 +16,6 @@ public class Assignment1Program1 {
     System.out.println("LLLLLLLLLLLL      SSSSSSSSSSS");
     String inputChar;
     double tempF;
-    double tempC;
     Random generator = new Random();
     Scanner keyInput = new Scanner(System.in);
     System.out.println("Please enter a 5-character string:");
