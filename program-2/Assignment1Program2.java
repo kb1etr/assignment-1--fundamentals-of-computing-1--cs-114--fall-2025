@@ -2,16 +2,8 @@ import java.util.Scanner;
 public class Assignment1Program2 {
   public static void main(String[] args) {
   
-  int inputBase;
-  int inputBaseTen;
-  int maxNub;
-  int base1;
-  int modbase1;
-  int base2;
-  int modbase2;
-  int base3;
-  int modbase3;
-
+  int inputBase, inputBaseTen, maxNub; 
+  int base1, modbase1, base2, modbase2, base3, modbase3, base4, modbase4;
 
   Scanner keyInput = new Scanner(System.in);
   
@@ -31,25 +23,18 @@ public class Assignment1Program2 {
   base1=(inputBaseTen/inputBase);
   modbase1=(inputBaseTen%inputBase);
 
-  base2=(inputBaseTen/base1);
-  modbase2=(inputBaseTen%base1);
+  base2=(base1/inputBase);
+  modbase2=(base1%inputBase);
 
-  base3=(inputBaseTen/base2);
-  modbase3=(inputBaseTen%base2);
-  
+  base3=(base2/inputBase);
+  modbase3=(base2%inputBase);
+
+  base4=(base3/inputBase);
+  modbase4=(base3%inputBase);
+
   
   System.out.println();
-  System.out.println(inputBaseTen + " (base 10) =" + " (base " + inputBase + ")");
-
- System.out.println();
- System.out.println("B1-"+base1);
- System.out.println("M1-"+modbase1);
- System.out.println("B2-"+base2);
- System.out.println("M2-"+modbase2);
- System.out.println("B3-"+base3);
- System.out.println("M3-"+modbase3);
-
-
+  System.out.println(inputBaseTen + " (base 10) = " + modbase4 + modbase3 + modbase2 + modbase1 + " (base " + inputBase + ")");
   }
 
 }
