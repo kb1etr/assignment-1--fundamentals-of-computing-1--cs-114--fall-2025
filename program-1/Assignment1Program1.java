@@ -18,20 +18,21 @@ public class Assignment1Program1 {
     System.out.println("LLLLLLLLLLL      SSSSSSSSSSSSS");
     System.out.println("LLLLLLLLLLLL      SSSSSSSSSSS");
   
-    String message;
-    String tempF;
+    String inputChar;
+    double tempF;
+    double tempC;
 
     Random generator = new Random();
     int num1;
     
-    Scanner string = new Scanner(System.in);
+    Scanner inputChar = new Scanner(System.in);
 
     System.out.println("Please enter a 5-character string:");
-    message = string.nextLine();
+    inputChar = string.nextLine();
     System.out.println("");
 
     System.out.println("Please enter a number in Fahrenheit:");
-    tempF = string.nextLine();
+    tempF = string.nextDouble();
     System.out.println("");
 
     System.out.println( "Random number generated. Continuing...");
@@ -39,11 +40,14 @@ public class Assignment1Program1 {
 
     System.out.print( "Your new string is ");
 
-    System.out.print(message.charAt(3));
-    System.out.print(message.charAt(2));
-    System.out.print(message.charAt(1));
+    tempC = ((tempF - 32) / 1.8);
+
+    System.out.print(tempC)
+    System.out.print(inputChar.charAt(3));
+    System.out.print(inputChar.charAt(2));
+    System.out.print(inputChar.charAt(1));
     
     num1 = generator.nextInt();
-    System.out.println( + num1);
+    System.out.println(num1);
     
   }}
