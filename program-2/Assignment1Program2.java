@@ -14,6 +14,9 @@ public class Assignment1Program2 {
 
 
   Scanner keyInput = new Scanner(System.in);
+  
+  System.out.println("Base Conversion Program");
+  System.out.println();
 
   System.out.print("Please enter a base (2 – 9):");
   inputBase = keyInput.nextInt();
@@ -25,14 +28,14 @@ public class Assignment1Program2 {
   System.out.print("Now, enter a base 10 number in the range 0 to " + maxNub + " to convert: ");
   inputBaseTen = keyInput.nextInt();
   
-  base1=inputBaseTen/inputBase;
-  modbase1=inputBaseTen%inputBase;
+  base1=(inputBaseTen/inputBase);
+  modbase1=(inputBaseTen%inputBase);
 
-  base2=inputBaseTen/base1;
-  modbase2=inputBaseTen%base1;
+  base2=(inputBaseTen/base1);
+  modbase2=(inputBaseTen%base1);
 
-  base3=inputBaseTen/base2;
-  modbase3=inputBaseTen%base2;
+  base3=(inputBaseTen/base2);
+  modbase3=(inputBaseTen%base2);
   
   
   System.out.println();
