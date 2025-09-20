@@ -2,6 +2,10 @@ import java.util.Scanner;
 import java.util.Random;
 public class Assignment1Program1 {
   public static void main(String[] args) {
+    String inputChar;
+    double tempF;
+    Random generator = new Random();
+    Scanner keyInput = new Scanner(System.in);
     System.out.println("LL                 SSSSSSSSSSSS");
     System.out.println("LL                SSSSSSSSSSSSSS");
     System.out.println("LL               SS");
@@ -14,10 +18,6 @@ public class Assignment1Program1 {
     System.out.println("LL                           SS");
     System.out.println("LLLLLLLLLLL      SSSSSSSSSSSSS");
     System.out.println("LLLLLLLLLLLL      SSSSSSSSSSS");
-    String inputChar;
-    double tempF;
-    Random generator = new Random();
-    Scanner keyInput = new Scanner(System.in);
     System.out.println("Please enter a 5-character string:");
     inputChar = keyInput.nextLine();
     System.out.println("");
