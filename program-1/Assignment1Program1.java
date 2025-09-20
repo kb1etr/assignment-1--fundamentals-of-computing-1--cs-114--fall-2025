@@ -18,6 +18,7 @@ public class Assignment1Program1 {
     System.out.println("LL                           SS");
     System.out.println("LLLLLLLLLLL      SSSSSSSSSSSSS");
     System.out.println("LLLLLLLLLLLL      SSSSSSSSSSS");
+    System.out.println();
     System.out.println("Please enter a 5-character string:");
     inputChar = keyInput.nextLine();
     System.out.println("");
