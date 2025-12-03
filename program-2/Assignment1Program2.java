@@ -22,6 +22,6 @@ public class Assignment1Program2 {
   modBase3=(base2%inputBase);
   modBase4=(base3%inputBase);
   System.out.println();
-  System.out.println(inputBaseTen + " (base 10) = " + modbase4 + modBase3 + modBase2 + modBase1 + " (base " + inputBase + ")");
+  System.out.println(inputBaseTen + " (base 10) = " + modBase4 + modBase3 + modBase2 + modBase1 + " (base " + inputBase + ")");
   }
 }
